@@ -1,0 +1,20 @@
+var Today=new Date().getFullYear();
+var ogr1_Name="sefa";
+var ogr1_Birthday=2012;
+var ogr1_Mat1=70;
+var ogr1_Mat2=70;
+var ogr1_Mat3=80;
+var ogr1_Years= Today-ogr1_Birthday;
+var ogr1_mat_Average=((ogr1_Mat1+ogr1_Mat2+ogr1_Mat3)/3);
+var ogr1_Pass=(ogr1_mat_Average>50);
+console.log(ogr1_Pass);
+var ogr2_Name="ahmet";
+var ogr2_Birthday=2010;
+var ogr2_Mat1=40;
+var ogr2_Mat2=40;
+var ogr2_Mat3=50;
+var ogr2_Years=Today- (ogr2_Birthdary);
+var ogr2_mat_Average=(50< (ogr2_Mat1+ogr2_Mat2+ogr2_Mat3)/3);
+var ogr2_Pass=(ogr2_mat_Average>50);
+console.log(ogr2_Pass);
+
